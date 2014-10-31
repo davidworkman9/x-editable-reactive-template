@@ -7,12 +7,13 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
+    api.versionsFrom('0.9.0');
     api.use([
         'templating'
     ], 'client');
 
     api.use([
-        'natestrauser:x-editable-bootstrap'
+        'natestrauser:x-editable-bootstrap@1.5.1'
     ], 'client', { weak: true });
 
     api.addFiles([
