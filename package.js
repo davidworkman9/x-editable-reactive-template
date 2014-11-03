@@ -1,7 +1,7 @@
 'use strict';
 Package.describe({
     summary: 'x-editable in a Blaze template, taking care of reactive updates to x-editable automatically',
-    version: '1.0.0',
+    version: '1.0.1',
     git: 'https://github.com/davidworkman9/x-editable-reactive-template.git',
     name: 'workman:x-editable-reactive-template'
 });
