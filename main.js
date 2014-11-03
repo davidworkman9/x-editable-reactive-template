@@ -39,10 +39,10 @@ Template.xEditable.rendered = function () {
         var changedOpts = _.filter(Object.keys(data), function (opt) {
             return opts.indexOf(opt) !== -1 && !_.isEqual(lastData[opt], data[opt]);
         });
+        lastData = data;
 
         Deps.afterFlush(function () {
             _.each(changedOpts, function (opt) {
-                console.log(opt);
                 $input.editable('option', opt, data[opt]);
             });
         });
