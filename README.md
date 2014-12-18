@@ -17,7 +17,7 @@ The options for the template are the same [options you have for x-editable](http
 They can be reactive, the template will initialize x-editable once, and only update what's changed. No flash from destroying/re-initializing when variables change.
 
 #### Template
-    {{> x-editable type="text" success=onSuccess placement="right" }}
+    {{> xEditable type="text" success=onSuccess placement="right" }}
 
 #### JS
     Template.hello.helpers({
