@@ -20,6 +20,7 @@ var opts = [
     "selector",
     "send",
     "showbuttons",
+    "source",
     "success",
     "toggle",
     "type",
